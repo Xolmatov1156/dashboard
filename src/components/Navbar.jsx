@@ -5,7 +5,7 @@ import { Logo, OverviewIcon, Tickets, Ideas, Contacts, Agents, Articles, Setting
 
 const Navbar = () => {
   return (
-    <div className='w-[20%] h-[100vh] bg-[#363740] text-[#DDE2FF] flex flex-col'>
+    <div className='w-[20%] h-[150vh] bg-[#363740] text-[#DDE2FF] flex flex-col'>
       <a href='/' className='flex items-center gap-[12px] text-[#A4A6B3] text-[19px] mt-[37px] ml-[32px] tracking-wider'><Logo/><p>Dashboard Kit</p></a>
       <NavLink className={`flex gap-5 mt-[59px] items-center pl-[32px] py-[20px] w-full`} to={'/'}><OverviewIcon/>Overview</NavLink>
       <NavLink className={`flex gap-5 items-center pl-[32px] py-[20px] w-full`} to={'/tickets'}><Tickets/> Tickets</NavLink>
