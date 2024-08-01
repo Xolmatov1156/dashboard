@@ -90,9 +90,9 @@ const Overview = () => {
       <div className='w-[342px] border-slate-300 border-[1px]'>
         <ul className='w-full flex flex-col'>
         {trends.map((item, index) => (
-      <li key={index} className='w-full h-[106px] border-[1px] border-slate-300 rounded-md hover:border-blue-500 hover:text-[#3751FF] cursor-pointer'>
-        <h3 className='text-[#9FA2B4] font-bold text-[16px] text-center mt-[24px] hover:text-[#3751FF]'>{item.title}</h3>
-        <p className='text-[#252733] text-[24px] text-center font-bold hover:text-[#3751FF]'>{item.text}</p>
+      <li key={index} className='w-full h-[109px] border-[1px] border-slate-300 cursor-pointer'>
+        <h3 className='text-[#9FA2B4] font-bold text-[16px] text-center mt-[24px]'>{item.title}</h3>
+        <p className='text-[#252733] text-[24px] text-center font-bold'>{item.text}</p>
       </li>
     ))}
         </ul>
