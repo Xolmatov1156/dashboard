@@ -4,6 +4,7 @@ import Avatar from '../assets/images/avatar.jpg'
 
 const Ideas = () => {
   return (
+    <>
     <div className='w-[1122px] mt-[30px] mx-auto flex justify-between'>
       <h2 className='text-[24px] text-[#252733] font-bold tracking-wide'>Ideas</h2>
       <div className='flex items-center'>
@@ -16,6 +17,7 @@ const Ideas = () => {
         <img src={Avatar} alt="ava" height={44} width={44} className='rounded-[50%] ml-[14px]'/>
       </div>
     </div>
+    </>
   )
 }
 

@@ -4,7 +4,7 @@ import { Agents, Articles, Contacts, Ideas, Overview, Settings, Subscription, Ti
 
 const CustomRoutes = () => {
   return (
-    <div className='w-[80%] h-[150vh] bg-[#F7F8FC]'>
+    <div className='w-[80%]  bg-[#F7F8FC]'>
         <Routes>
         <Route path='/' element={<Overview />} />
         <Route path='/tickets' element={<Tickets />} />

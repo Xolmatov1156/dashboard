@@ -7,4 +7,4 @@ import Settings from "./Settings";
 import Tickets from "./Tickets";
 import Subscription from "./Subscription";
 
-export {Overview, Agents, Articles, Contacts, Ideas, Settings, Tickets, Subscription}
+export {Overview, Agents, Articles, Contacts, Ideas, Settings, Tickets, Subscription,}
